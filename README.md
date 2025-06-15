@@ -1,1 +1,1 @@
-# stop-watch
+This is a simple [StopWatch] using HTML, CSS and JavaScript.
