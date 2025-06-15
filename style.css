@@ -38,15 +38,28 @@ body {
     border: none;
     border-radius: 6px;
     font-weight: bold;
+    cursor: pointer;
 }
 #start {
     color: white;
     background-color: green;
+    transition: background-color .2s;
+}
+#start:hover {
+    background-color: rgb(0, 172, 0);
 }
 #reset {
     color: white;
     background-color: rgb(11, 0, 160);
+    transition: background-color .2s;
+}
+#reset:hover {
+    background-color: rgb(14, 0, 205);
 }
 #stop {
     color: white;
+    transition: background-color .2s;
+}
+#stop:hover {
+    background-color: red;
 }
